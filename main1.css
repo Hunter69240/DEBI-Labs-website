@@ -1,154 +1,104 @@
 body{
-    margin:0 auto;
-    max-width: 1200px;  
-    min-width: 320px;
-    min-height: 100vh;
     background-color: #121212;
-    padding: 0 20px;
-    
 }
 
-@media (max-width: 600px) {
-    body {
-        padding: 0 150px;
-    }
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
-
-div{
-    display: block;
-}
-#header{
-    display: flex;
-    margin: 0px;
+.text-white{
     color: white;
-    font-size: 1.4rem;
-    font-weight: 300;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: opacity 0.2s;
 }
 
-#jury-title{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-left: auto;
-}
-
-.jury-button{
-    padding: 0.8rem 1.5rem;
-    border-radius: 25px;
-    border: 1px solid rgba(255, 193, 7, 0.2);
-    background: rgba(255, 193, 7, 0.08);
-    color: rgb(255, 213, 79);
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-}
-
-.congrats{
-    background: linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.05) 100%);
-    padding: 1.5rem;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
-    margin-bottom: 2rem;
-}
-
-.congratsmessage{
+.text-yellow{
     color: rgb(255, 215, 0);
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-bottom: 0.8rem;
 }
 
 .congratspara{
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.1rem;
+    margin: 0 auto;
+    padding: 20px;
     line-height: 1.6;
+    font-size: 18px;
     max-width: 800px;
-    margin: 0px auto;
-}
-
-.winners-1{
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-}
-
-.winners-2{
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-}
-
-.leadership-title{
-    color: rgb(255, 215, 0);
-    font-size: 1.8rem;
-    margin: 3rem 0px 1.5rem;
-    padding: 0px 1rem 0.5rem;
-    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
-    display: flex;
+}   
+.title{
+    display:flex ;
     align-items: center;
-    gap: 0.8rem;
-    position: relative;
-}
-
-.leadership-word{
-    color: yellow;
+    justify-content: space-between;
+    width: 100%;
 }
 
 
-.boxes{
-    display: flex;
-    gap: 30px;
-    padding: 0px 0.5rem;
+.body-inner{
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: rgb(18, 18, 18);
 }
 
 .box-1{
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 1.5rem;
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: relative;
-}
-
-.ogtp{
-    background: rgba(255, 215, 0, 0.1);
-    color: rgb(255, 215, 0);
+    padding: 20px;
+    background-color: rgba(255, 215, 0, 0.15);
+    height: 200px;
     text-align: center;
-    border-radius: 12px;
-    margin-bottom: 2rem;
+    
 }
 
-.names{
+.box-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box-3{
+    text-align: center;
+}
+
+.box-cards{
+    height: 400px;
+}
+
+.card-1{
+    width: 30%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+}
+
+.card-1 .header-card{
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), transparent);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 11%;
+    display: flex;
+    
+}
+
+.card-1 .header-card .badge{
+    background: rgba(255, 215, 0, 0.1);
+    text-align: center;
+    margin: auto 0px 0px 20px;
+    width: 300px;
+    height: 75%;
+    border-radius: 10px;
+}
+
+p{
+    margin: 10px auto;
+}
+
+.name{
     text-align: center;
     color: white;
+}
+
+.description{
     text-align: center;
-    margin: 50px 0px 50px;
+    margin: 50px 20px 0px 20px;
+    color: white;
+}
+
+.profile-btn{
+    width: 250px;
+    margin: ;
+    
 }
 
 
-
-.info{
-    color:white;
-    text-align: center;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
