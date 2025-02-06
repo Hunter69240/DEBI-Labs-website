@@ -87,6 +87,12 @@ body{
     height: 75%;
     border-radius: 10px;
 }
+
+.card-1:hover{
+    background: rgba(255, 255, 255, 0.09);
+}
+
+
 .card-2{
     width: 20%;
     height: 100%;
@@ -94,6 +100,10 @@ body{
     border-radius: 15px;
     float: left;
     margin: 10px;
+}
+
+.card-2:hover{
+    background: rgba(255, 255, 255, 0.09);
 }
 
 .card-2 .header-card{
@@ -154,6 +164,7 @@ p{
 
 .profile-btntype2{
     width: 250px;
+    height: 40%;
     position: relative;
     bottom: 0;
     left: 17%;
@@ -161,7 +172,18 @@ p{
     display: flex;
     align-content: center;
     justify-content: center;
+    background-color: #173568;
+    border: #3a5676;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    font-size: large;
+    color: #2d5d9a;
 }
+
+.profile-btntype2:hover{
+    background-color: #3a5676;
+}
+
 .profile-btntype1{
     width: 250px;
     position: relative;
@@ -171,4 +193,30 @@ p{
     display: flex;
     align-content: center;
     justify-content: center;
+    background-color: #173568;
+    border: #3a5676;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    font-size: large;
+    color: #2d5d9a;
+}
+
+#LinkedInico{
+    width: 15%;
+    height: 15%;
+}
+
+#juryimg{
+    width: 30px;
+    height: 20%;
+}
+
+.jury{
+    width: 100px;
+    height: 30%;
+    background-color: #3a3422;
+}
+
+.jury:hover{
+    background-color: #635b41;
 }
