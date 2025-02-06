@@ -51,15 +51,23 @@ body{
     text-align: center;
 }
 
+.box-4{
+    display: block;
+}
+
 .box-cards{
     height: 400px;
+    padding: auto;
+    box-sizing: border-box;
 }
 
 .card-1{
-    width: 30%;
+    width: 20%;
     height: 100%;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
+    float: left;
+    margin: 10px;
 }
 
 .card-1 .header-card{
@@ -79,9 +87,58 @@ body{
     height: 75%;
     border-radius: 10px;
 }
+.card-2{
+    width: 20%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    float: left;
+    margin: 10px;
+}
+
+.card-2 .header-card{
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), transparent);   
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 11%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position: relative;    
+}
+
+.card-2 .header-card .badge{
+    background: rgba(255, 215, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+    margin: auto 0px 0px 10%;
+    position: relative;
+    margin-top: 65%;
+    width: 300px;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.profile-pic{
+    align-content: center;
+    width: 40%;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid rgba(255, 215, 0, 0.5); 
+}
+.content{
+    position: relative;
+    top: 120px;
+
+}
 
 p{
-    margin: 10px auto;
+    margin: 9px auto;
 }
 
 .name{
@@ -95,10 +152,23 @@ p{
     color: white;
 }
 
-.profile-btn{
+.profile-btntype2{
     width: 250px;
-    margin: ;
-    
+    position: relative;
+    bottom: 0;
+    left: 17%;
+    margin: 10px 0px 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
-
-
+.profile-btntype1{
+    width: 250px;
+    position: relative;
+    bottom: 0;
+    left: 17%;
+    margin: 10px 0px 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
