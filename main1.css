@@ -1,5 +1,15 @@
 body{
+    background-color: #252424;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.body{
     background-color: #121212;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .text-white{
@@ -57,8 +67,10 @@ body{
 
 .box-cards{
     height: 400px;
-    padding: auto;
+    padding: 0px;
+    display: flex;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .card-1{
@@ -67,7 +79,7 @@ body{
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     float: left;
-    margin: 10px;
+    margin: 5px;
 }
 
 .card-1 .header-card{
@@ -99,7 +111,7 @@ body{
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     float: left;
-    margin: 10px;
+    margin: 5px;
 }
 
 .card-2:hover{
@@ -174,6 +186,7 @@ p{
     justify-content: center;
     background-color: #173568;
     border: #3a5676;
+    border-radius: 15px;
     box-sizing: border-box;
     font-family: 'Segoe UI';
     font-size: large;
@@ -195,6 +208,7 @@ p{
     justify-content: center;
     background-color: #173568;
     border: #3a5676;
+    border-radius: 15px;
     box-sizing: border-box;
     font-family: 'Segoe UI';
     font-size: large;
