@@ -6,40 +6,79 @@ body{
     color: white;
     font-family:  Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+hr{
+    width: calc(100% + 20px);
+    opacity: 0.2;
+    padding: 0;
+    margin: 10px -10px;
+}
 .navigation{
-    margin: 10px;
-    padding: 45px;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    margin-top: 20px;
 }
+
 .title{
-    display: inline-block;
-    padding: 1rem 1rem;
-    justify-content: left;
-    float: left;
+    margin-left: 20px;
 }
-.navbutton{
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 15px;
-    float: right;
-}
-.juryclick{
-    height: 100px;
-    width: 150px; 
-    display: inline-block;
-    margin-top: -50px;
-    border-radius: 100px;
-    scale: 75%;
-}
-.card{
-    width: 400px;
-    height: 300px;
+
+.card-1{
+    display: block;
+    width: 300px;
+    height: 325px;
     padding: 10px 10px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     float: left;
     margin: 10px;
 }
-.header{
+
+
+.jurypanel{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
+} 
+
+
+.juryclick{
+    height: 70px;
+    width: 150px; 
+    display: inline-block;
+    margin-top: -50px;
+    border-radius: 100px;
+    scale: 75%;
+    background: rgba(255, 193, 7, 0.08);
+    color: rgb(255, 213, 79);
+}
+.card{
+    width: 300px;
+    height: 325px;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    float: left;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover, .card-1:hover {
+    transform: translateY(-5px); /* Moves the entire card up */
+}
+.MainContent{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.linkedinlink{
+    width: 150px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    gap: 2px;
 }
