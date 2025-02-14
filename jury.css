@@ -17,9 +17,10 @@ body {
     padding: 20px 0;
 }
 
-.button-winners{
+.button-winners a , .button-winners{
     margin-left: 20px;
     padding: 5px;
+    background-color: black;
 }
 
 .main-content{
